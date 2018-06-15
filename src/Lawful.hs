@@ -5,8 +5,8 @@
 
 module Lawful (Lawful) where
 
--- | A `Lawful c t` instance asserts that the typeclass `c t`
---   obeys the expected laws of `c` (whatever that means).
+-- | A `Lawful c t` instance asserts that the instance `c t`
+--   obeys the expected laws of the typeclass `c` (whatever that means).
 class c t => Lawful c t
 
 ---------------------------------------------------------------------
